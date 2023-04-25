@@ -55,12 +55,19 @@ img[alt="Linktree photo"] + h3 {
 }
 
 .linktree-box {
+  transition: all 300ms;
   display: flex;
   align-items: center;
   text-align: start;
   padding: 12px 12px;
   border: 1px solid #ebebeb;
   border-radius: 8px;
+  background: #fff;
+  transition: all 300ms;
+}
+.linktree-box:hover{
+   transform: scale(1.1,1.1);
+ 
   background: #fff;
 }
 
