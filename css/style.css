@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
 *,
 *::before,
 ::after {
@@ -14,14 +15,14 @@ html {
 
 body {
   font-size: 0.94rem;
-  font-family: Poppins, Noto Sans, sans-serif;
+  font-family: Roboto Sans, sans-serif;
   text-align: center;
   line-height: 1.5;
   background: #f8f8f8;
 }
 
 main {
-  padding: 12vh 0;
+  padding: 4vh 0;
 }
 
 img[alt="Linktree photo"] {
@@ -42,8 +43,9 @@ img[alt="Linktree photo"] + h3 {
 }
 
 .linktree-nav ul {
-  display: grid;
-  gap: 1rem;
+ 
+  display: inline-grid;
+  gap: 2rem;
   list-style: none;
 }
 
