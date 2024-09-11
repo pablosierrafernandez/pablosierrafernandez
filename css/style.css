@@ -2,23 +2,25 @@
 
 *,
 *::before,
-::after {
+*::after {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 100%;
-  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
 body {
   font-size: 0.94rem;
-  font-family: Roboto Sans, sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: center;
   line-height: 1.5;
   background: #f8f8f8;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -32,21 +34,21 @@ img[alt="Linktree photo"] {
   border-radius: 50%;
 }
 
-img[alt="Linktree photo"] + h3 {
-  margin: 16px 0 0px;
+h3 {
+  margin: 16px 0 0;
 }
 
 .linktree-nav {
   margin: 40px auto 0;
-  width: 95%;
+  width: 90%;
   max-width: 700px;
 }
 
 .linktree-nav ul {
- 
-  display: inline-grid;
-  gap: 2rem;
+  display: grid;
+  gap: 1.5rem;
   list-style: none;
+  padding: 0;
 }
 
 .linktree-nav a {
@@ -59,22 +61,21 @@ img[alt="Linktree photo"] + h3 {
   display: flex;
   align-items: center;
   text-align: start;
-  padding: 12px 12px;
+  padding: 16px;
   border: 1px solid #ebebeb;
   border-radius: 8px;
   background: #fff;
 }
-.linktree-box:hover{
-   transform: scale(1.1,1.1);
+
+.linktree-box:hover {
+  transform: scale(1.05);
 }
 
 .linktree-box .icon-box {
   --scale: 56px;
   width: var(--scale);
   height: var(--scale);
-  font-size: 1.25rem;
-  background: hsl(var(--color), 30%);
-  color: hsl(var(--color));
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,5 +86,9 @@ img[alt="Linktree photo"] + h3 {
 @media (min-width: 600px) {
   .linktree-nav ul {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .linktree-box {
+    padding: 20px;
   }
 }
