@@ -1,69 +1,172 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pablo Sierra 🦖</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    main {
+      background-color: white;
+      border-radius: 16px;
+      padding: 20px;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      object-fit: cover;
+    }
+
+    header h3 {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    header span {
+      font-size: 16px;
+      color: #555;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 10px 0;
+    }
+
+    .linktree-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f4f4f9;
+      border-radius: 12px;
+      padding: 10px 20px;
+      transition: background-color 0.3s;
+    }
+
+    .linktree-box:hover {
+      background-color: #e0e0e0;
+    }
+
+    .icon-box {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+
+    h5 {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    footer {
+      font-size: 14px;
+      color: #777;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 480px) {
+      main {
+        padding: 15px;
+      }
+
+      header img {
+        width: 100px;
+        height: 100px;
+      }
+
+      header h3 {
+        font-size: 20px;
+      }
+
+      h5 {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<main>
-  <header>
-    <img src="https://avatars.githubusercontent.com/u/100271163?v=4" alt="Linktree photo" />
-    <h3>Pablo Sierra</h3>
-    <span>💻Computer Engineer & 🧬Biotechnologist</span>
-  </header>
-  <nav class="linktree-nav">
-    <ul>
-      <li>
-        <a href="./cv/cv_PabloSierra.pdf" target="_blank">
-          <div class="linktree-box">
-            <div class="icon-box" style="background:#16de9480">📋</div>
-            <div>
-              <h5>Curriculum Vitae</h5>
-              
+  <main>
+    <header>
+      <img src="https://avatars.githubusercontent.com/u/100271163?v=4" alt="Linktree photo" />
+      <h3>Pablo Sierra</h3>
+      <span>💻Computer Engineer & 🧬Biotechnologist</span>
+    </header>
+    <nav class="linktree-nav">
+      <ul>
+        <li>
+          <a href="./cv/cv_PabloSierra.pdf" target="_blank">
+            <div class="linktree-box">
+              <div class="icon-box">📋</div>
+              <div>
+                <h5>Curriculum Vitae</h5>
+              </div>
             </div>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/pablosierrafernandez" target="_blank">
-          <div class="linktree-box">
-            <div class="icon-box" style="background:#5f16de80">😻</div>
-            <div>
-              <h5>GitHub</h5>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/pablosierrafernandez" target="_blank">
+            <div class="linktree-box">
+              <div class="icon-box">😻</div>
+              <div>
+                <h5>GitHub</h5>
+              </div>
             </div>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="mailto:pablosierr@hotmail.com?Subject=Interesado%20en%20tu%20perfil">
-          <div class="linktree-box">
-            <div class="icon-box" style="background:#deba1680">📮</div>
-            <div>
-              <h5>Email</h5>
-             
+          </a>
+        </li>
+        <li>
+          <a href="mailto:pablosierr@hotmail.com?Subject=Interesado%20en%20tu%20perfil">
+            <div class="linktree-box">
+              <div class="icon-box">📮</div>
+              <div>
+                <h5>Email</h5>
+              </div>
             </div>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/pablo-sierra-fernandez/" target="_blank">
-          <div class="linktree-box" >
-            <div class="icon-box"style="background:#0a66c280">💼</div>
-            <div>
-              <h5>LinkedIn</h5>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/pablo-sierra-fernandez/" target="_blank">
+            <div class="linktree-box">
+              <div class="icon-box">💼</div>
+              <div>
+                <h5>LinkedIn</h5>
+              </div>
             </div>
-          </div>
-        </a>
-      </li>
-    </ul>
-  </nav>
-  <br>
-   <footer> Make with 💖 by me😊</footer>
-</main>
-<!-- partial -->
-  
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <footer> Made with 💖 by me 😊</footer>
+  </main>
 </body>
+
 </html>
