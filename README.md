@@ -4,12 +4,12 @@
 
 <br>
 <h1 align="center">Hi 👋, I'm Pablo Sierra</h1>
-<h3 align="center">I am passionate about new artificial intelligence, LLM applications, and financial markets.</h3>
+<h3 align="center">I am passionate about new artificial intelligence and LLM applications.</h3>
 <img align="right" alt="GitHub" width="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXcwbWZuNWkyY3B3dHp5Y3FuZmRtbXVtbGE4bjZ2MmdkcWxwNWJpaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/du3J3cXyzhj75IOgvA/giphy.webp">
 
 - 🌲 My link tree -> [PabloSierraLinkTree](https://pablosierrafernandez.github.io/pablosierrafernandez/)
 
-- 🔭 I’m currently working on [PlugTrader](https://plugtrader.co/)
+- 🔭 I’m currently working on my own project [PlugTrader](https://plugtrader.co/)
 
 - 🌱 I’m currently learning **LLM Apps**
 
