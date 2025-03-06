@@ -9,9 +9,11 @@
 
 - 🌲 My link tree -> [PabloSierraLinkTree](https://pablosierrafernandez.github.io/pablosierrafernandez/)
 
-- 🔭 I’m currently working on my own project [PlugTrader](https://plugtrader.co/)
+- 🔭 I’m currently working on my own projects:
+  - [PlugTrader](https://plugtrader.co/)
+  - [ConsultaBOE.es](https://plugtrader.co/)
 
-- 🌱 I’m currently learning **LLM Apps**
+- 🌱 I’m currently learning **LLM Apps and ML**
 
 - 📫 How to reach me **pablosierr@hotmail.com**
 
